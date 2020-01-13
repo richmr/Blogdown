@@ -6,6 +6,10 @@
   *******************/
 
   $target_directory = "./blog"
-  $repo = "https://"
-  $cmd = "git clone "
+  $repo = "https://github.com/richmr/Blogdown.git"
+  $cmd = "git clone $repo $target_directory 2>&1"
+
+  echo '<pre>';
+  passthru($cmd);
+  echo '</pre>';
  ?>

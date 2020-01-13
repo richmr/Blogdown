@@ -5,9 +5,9 @@
     file.  Note, you can't have it IN the target directory
   *******************/
 
-  $target_directory = "./blog"
-  $repo = "https://github.com/richmr/Blogdown.git"
-  $cmd = "git clone $repo $target_directory 2>&1"
+  $target_directory = "./blog";
+  $repo = "https://github.com/richmr/Blogdown.git";
+  $cmd = "git clone $repo $target_directory 2>&1";
 
   echo '<pre>';
   passthru($cmd);

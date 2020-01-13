@@ -1,0 +1,11 @@
+<?php
+  /******************
+    This is used to clone blogdown into your target site
+    Set the $target_directory relative to the location where you put this
+    file.  Note, you can't have it IN the target directory
+  *******************/
+
+  $target_directory = "./blog"
+  $repo = "https://"
+  $cmd = "git clone "
+ ?>
